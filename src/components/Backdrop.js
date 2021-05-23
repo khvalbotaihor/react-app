@@ -2,7 +2,7 @@ function Backdrop(props) {
     debugger
 
     function RemoveModalWindow() {
-        props.onClick()
+        props.onCancel()
     }
 
     return <div className='backdrop' onClick={RemoveModalWindow}/>

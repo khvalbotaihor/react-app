@@ -1,6 +1,6 @@
 function Modal(props) {
     function CloseModalWindow() {
-        props.onClick()
+        props.onCancel()
     }
     return (
         <div className='modal'>
