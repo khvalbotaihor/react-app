@@ -1,7 +1,6 @@
 function Modal(props) {
-    debugger
     function CloseModalWindow() {
-        props.CloseModalHandler()
+        props.onClick()
     }
     return (
         <div className='modal'>

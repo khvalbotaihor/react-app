@@ -1,7 +1,11 @@
 function Backdrop(props) {
+    debugger
+
     function RemoveModalWindow() {
-        props.CloseModalHandler()
+        props.onClick()
     }
-return <div className='backdrop' onClick={RemoveModalWindow}/>
+
+    return <div className='backdrop' onClick={RemoveModalWindow}/>
 }
+
 export default Backdrop
