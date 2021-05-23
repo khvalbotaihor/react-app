@@ -1,7 +1,10 @@
+import {useState} from 'react'
+
 function Todo(props) {
+const [modalIsOpen, setModalIsOpen] = useState()
 
     function DeleteHandler() {
-
+        setModalIsOpen(true)
     }
 
     return (
